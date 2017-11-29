@@ -1,0 +1,84 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	PressStart: {
+		file: fonts/PressStart.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	RGBA_255_255_255_255: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: buttonNotPressed
+		down: buttonPressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		imageUp: buttonNotPressed
+		imageDown: buttonPressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		imageUp: buttonNotPressed
+		imageDown: buttonPressed
+		font: PressStart
+	}
+	weaponUpgrade: {
+		imageUp: weaponUpgrade
+		imageDown: weaponUpgrade
+		font: PressStart
+	}
+	shieldUpgrade: {
+		imageUp: shieldUpgrade
+		imageDown: shieldUpgrade
+		font: PressStart
+	}
+	weaponUpgradeB: {
+		imageUp: weaponUpgradeOwned
+		imageDown: weaponUpgradeOwned
+		font: PressStart
+	}
+	shieldUpgradeB: {
+		imageUp: shieldUpgradeOwned
+		imageDown: shieldUpgradeOwned
+		font: PressStart
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: PressStart
+		fontColor: RGBA_255_255_255_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: PressStart
+		fontColor: RGBA_255_255_255_255
+		up: buttonNotPressed
+		down: buttonPressed
+	}
+	selectedMenu: {
+		font: PressStart
+		up: buttonNotPressedSel
+		down: buttonPressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: PressStart
+		fontColor: RGBA_255_255_255_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}
